@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2AFD6116714F6800232EE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AFD6016714F6800232EE6 /* UIKit.framework */; };
+		0E2AFD6316714F6800232EE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AFD6216714F6800232EE6 /* Foundation.framework */; };
+		0E2AFD6516714F6800232EE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AFD6416714F6800232EE6 /* CoreGraphics.framework */; };
+		0E2AFD6B16714F6800232EE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AFD6916714F6800232EE6 /* InfoPlist.strings */; };
+		0E2AFD6D16714F6800232EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AFD6C16714F6800232EE6 /* main.m */; };
+		0E2AFD7116714F6800232EE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AFD7016714F6800232EE6 /* AppDelegate.m */; };
+		0E2AFD7316714F6800232EE6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AFD7216714F6800232EE6 /* Default.png */; };
+		0E2AFD7516714F6800232EE6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AFD7416714F6800232EE6 /* Default@2x.png */; };
+		0E2AFD7716714F6800232EE6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AFD7616714F6800232EE6 /* Default-568h@2x.png */; };
+		0E2AFD7A16714F6800232EE6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AFD7816714F6800232EE6 /* MainStoryboard_iPhone.storyboard */; };
+		0E2AFD7D16714F6800232EE6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AFD7B16714F6800232EE6 /* MainStoryboard_iPad.storyboard */; };
+		0E2AFD8016714F6800232EE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AFD7F16714F6800232EE6 /* ViewController.m */; };
+		0E2AFD8816714F6800232EE6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AFD8716714F6800232EE6 /* SenTestingKit.framework */; };
+		0E2AFD8916714F6800232EE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AFD6016714F6800232EE6 /* UIKit.framework */; };
+		0E2AFD8A16714F6800232EE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AFD6216714F6800232EE6 /* Foundation.framework */; };
+		0E2AFD9216714F6800232EE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E2AFD9016714F6800232EE6 /* InfoPlist.strings */; };
+		0E2AFD9516714F6800232EE6 /* TemptyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2AFD9416714F6800232EE6 /* TemptyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E2AFD8B16714F6800232EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E2AFD5316714F6800232EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2AFD5B16714F6800232EE6;
+			remoteInfo = Tempty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2AFD5C16714F6800232EE6 /* Tempty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2AFD6016714F6800232EE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E2AFD6216714F6800232EE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E2AFD6416714F6800232EE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E2AFD6816714F6800232EE6 /* Tempty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tempty-Info.plist"; sourceTree = "<group>"; };
+		0E2AFD6A16714F6800232EE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E2AFD6C16714F6800232EE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E2AFD6E16714F6800232EE6 /* Tempty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tempty-Prefix.pch"; sourceTree = "<group>"; };
+		0E2AFD6F16714F6800232EE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E2AFD7016714F6800232EE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E2AFD7216714F6800232EE6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0E2AFD7416714F6800232EE6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0E2AFD7616714F6800232EE6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0E2AFD7916714F6800232EE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		0E2AFD7C16714F6800232EE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		0E2AFD7E16714F6800232EE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E2AFD7F16714F6800232EE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E2AFD8616714F6800232EE6 /* TemptyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemptyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2AFD8716714F6800232EE6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0E2AFD8F16714F6800232EE6 /* TemptyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemptyTests-Info.plist"; sourceTree = "<group>"; };
+		0E2AFD9116714F6800232EE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E2AFD9316714F6800232EE6 /* TemptyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemptyTests.h; sourceTree = "<group>"; };
+		0E2AFD9416714F6800232EE6 /* TemptyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemptyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E2AFD5916714F6800232EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AFD6116714F6800232EE6 /* UIKit.framework in Frameworks */,
+				0E2AFD6316714F6800232EE6 /* Foundation.framework in Frameworks */,
+				0E2AFD6516714F6800232EE6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2AFD8216714F6800232EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AFD8816714F6800232EE6 /* SenTestingKit.framework in Frameworks */,
+				0E2AFD8916714F6800232EE6 /* UIKit.framework in Frameworks */,
+				0E2AFD8A16714F6800232EE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2AFD5116714F6800232EE6 = {
+			isa = PBXGroup;
+			children = (
+				0E2AFD6616714F6800232EE6 /* Tempty */,
+				0E2AFD8D16714F6800232EE6 /* TemptyTests */,
+				0E2AFD5F16714F6800232EE6 /* Frameworks */,
+				0E2AFD5D16714F6800232EE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E2AFD5D16714F6800232EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AFD5C16714F6800232EE6 /* Tempty.app */,
+				0E2AFD8616714F6800232EE6 /* TemptyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E2AFD5F16714F6800232EE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AFD6016714F6800232EE6 /* UIKit.framework */,
+				0E2AFD6216714F6800232EE6 /* Foundation.framework */,
+				0E2AFD6416714F6800232EE6 /* CoreGraphics.framework */,
+				0E2AFD8716714F6800232EE6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E2AFD6616714F6800232EE6 /* Tempty */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AFD6F16714F6800232EE6 /* AppDelegate.h */,
+				0E2AFD7016714F6800232EE6 /* AppDelegate.m */,
+				0E2AFD7816714F6800232EE6 /* MainStoryboard_iPhone.storyboard */,
+				0E2AFD7B16714F6800232EE6 /* MainStoryboard_iPad.storyboard */,
+				0E2AFD7E16714F6800232EE6 /* ViewController.h */,
+				0E2AFD7F16714F6800232EE6 /* ViewController.m */,
+				0E2AFD6716714F6800232EE6 /* Supporting Files */,
+			);
+			path = Tempty;
+			sourceTree = "<group>";
+		};
+		0E2AFD6716714F6800232EE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AFD6816714F6800232EE6 /* Tempty-Info.plist */,
+				0E2AFD6916714F6800232EE6 /* InfoPlist.strings */,
+				0E2AFD6C16714F6800232EE6 /* main.m */,
+				0E2AFD6E16714F6800232EE6 /* Tempty-Prefix.pch */,
+				0E2AFD7216714F6800232EE6 /* Default.png */,
+				0E2AFD7416714F6800232EE6 /* Default@2x.png */,
+				0E2AFD7616714F6800232EE6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E2AFD8D16714F6800232EE6 /* TemptyTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AFD9316714F6800232EE6 /* TemptyTests.h */,
+				0E2AFD9416714F6800232EE6 /* TemptyTests.m */,
+				0E2AFD8E16714F6800232EE6 /* Supporting Files */,
+			);
+			path = TemptyTests;
+			sourceTree = "<group>";
+		};
+		0E2AFD8E16714F6800232EE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E2AFD8F16714F6800232EE6 /* TemptyTests-Info.plist */,
+				0E2AFD9016714F6800232EE6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E2AFD5B16714F6800232EE6 /* Tempty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2AFD9816714F6800232EE6 /* Build configuration list for PBXNativeTarget "Tempty" */;
+			buildPhases = (
+				0E2AFD5816714F6800232EE6 /* Sources */,
+				0E2AFD5916714F6800232EE6 /* Frameworks */,
+				0E2AFD5A16714F6800232EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tempty;
+			productName = Tempty;
+			productReference = 0E2AFD5C16714F6800232EE6 /* Tempty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E2AFD8516714F6800232EE6 /* TemptyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2AFD9B16714F6800232EE6 /* Build configuration list for PBXNativeTarget "TemptyTests" */;
+			buildPhases = (
+				0E2AFD8116714F6800232EE6 /* Sources */,
+				0E2AFD8216714F6800232EE6 /* Frameworks */,
+				0E2AFD8316714F6800232EE6 /* Resources */,
+				0E2AFD8416714F6800232EE6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E2AFD8C16714F6800232EE6 /* PBXTargetDependency */,
+			);
+			name = TemptyTests;
+			productName = TemptyTests;
+			productReference = 0E2AFD8616714F6800232EE6 /* TemptyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E2AFD5316714F6800232EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jason McDermott";
+			};
+			buildConfigurationList = 0E2AFD5616714F6800232EE6 /* Build configuration list for PBXProject "Tempty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E2AFD5116714F6800232EE6;
+			productRefGroup = 0E2AFD5D16714F6800232EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E2AFD5B16714F6800232EE6 /* Tempty */,
+				0E2AFD8516714F6800232EE6 /* TemptyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E2AFD5A16714F6800232EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AFD6B16714F6800232EE6 /* InfoPlist.strings in Resources */,
+				0E2AFD7316714F6800232EE6 /* Default.png in Resources */,
+				0E2AFD7516714F6800232EE6 /* Default@2x.png in Resources */,
+				0E2AFD7716714F6800232EE6 /* Default-568h@2x.png in Resources */,
+				0E2AFD7A16714F6800232EE6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				0E2AFD7D16714F6800232EE6 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2AFD8316714F6800232EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AFD9216714F6800232EE6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2AFD8416714F6800232EE6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E2AFD5816714F6800232EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AFD6D16714F6800232EE6 /* main.m in Sources */,
+				0E2AFD7116714F6800232EE6 /* AppDelegate.m in Sources */,
+				0E2AFD8016714F6800232EE6 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2AFD8116714F6800232EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2AFD9516714F6800232EE6 /* TemptyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E2AFD8C16714F6800232EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E2AFD5B16714F6800232EE6 /* Tempty */;
+			targetProxy = 0E2AFD8B16714F6800232EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E2AFD6916714F6800232EE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2AFD6A16714F6800232EE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E2AFD7816714F6800232EE6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2AFD7916714F6800232EE6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0E2AFD7B16714F6800232EE6 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2AFD7C16714F6800232EE6 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0E2AFD9016714F6800232EE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2AFD9116714F6800232EE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E2AFD9616714F6800232EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E2AFD9716714F6800232EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E2AFD9916714F6800232EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tempty/Tempty-Prefix.pch";
+				INFOPLIST_FILE = "Tempty/Tempty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E2AFD9A16714F6800232EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tempty/Tempty-Prefix.pch";
+				INFOPLIST_FILE = "Tempty/Tempty-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0E2AFD9C16714F6800232EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tempty.app/Tempty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tempty/Tempty-Prefix.pch";
+				INFOPLIST_FILE = "TemptyTests/TemptyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0E2AFD9D16714F6800232EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tempty.app/Tempty";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tempty/Tempty-Prefix.pch";
+				INFOPLIST_FILE = "TemptyTests/TemptyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E2AFD5616714F6800232EE6 /* Build configuration list for PBXProject "Tempty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2AFD9616714F6800232EE6 /* Debug */,
+				0E2AFD9716714F6800232EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2AFD9816714F6800232EE6 /* Build configuration list for PBXNativeTarget "Tempty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2AFD9916714F6800232EE6 /* Debug */,
+				0E2AFD9A16714F6800232EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E2AFD9B16714F6800232EE6 /* Build configuration list for PBXNativeTarget "TemptyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2AFD9C16714F6800232EE6 /* Debug */,
+				0E2AFD9D16714F6800232EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E2AFD5316714F6800232EE6 /* Project object */;
+}
